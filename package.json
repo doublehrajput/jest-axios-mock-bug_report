@@ -1,8 +1,8 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "nohoist": ["**/axios", "**/axios/**"]
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": ["**"]
+  }
 }

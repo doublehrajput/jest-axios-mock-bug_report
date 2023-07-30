@@ -16,5 +16,12 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "workspaces": {
+    "nohoist": [
+      "*axios*",
+      "*axios*/**"
+    ]
+  },
+  "private": true
 }
