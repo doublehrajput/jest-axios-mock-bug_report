@@ -1,0 +1,19 @@
+{
+  "name": "package-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "axios": "^1.4.0",
+    "design-system": "^1.0.0",
+    "msw": "^1.2.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
