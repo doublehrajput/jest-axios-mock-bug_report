@@ -7,7 +7,7 @@
     "@babel/plugin-transform-runtime": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
     "axios": "^1.4.0",
-    "design-system": "^1.0.0",
+    "design-system": "1.0.0",
     "envinfo": "^7.10.0",
     "msw": "^1.2.3"
   },

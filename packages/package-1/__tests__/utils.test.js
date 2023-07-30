@@ -7,7 +7,7 @@ jest.mock("axios", () => ({
 }));
 
 
-describe("[msw] locally" , () => {
+describe("[api] locally" , () => {
     it("test on local package", async () => {
         let response = await axios.get("http://localdata.com")
         expect(response.data).toEqual({})
